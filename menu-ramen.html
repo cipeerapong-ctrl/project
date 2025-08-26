@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เมนูราเมน — Neko Delivery</title>
+  <link rel="stylesheet" href="menu-ramen.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img src="nekologo.png" alt="โลโก้ร้าน" class="brand__logo">
+        <span class="brand__name">Neko Delivery</span>
+      </a>
+
+      <nav class="nav">
+        <a href="menu.html" class="nav__link">เมนู</a>
+        <a href="#service" class="nav__link">การจัดส่ง</a>
+        <a href="#contact" class="nav__link">ติดต่อ</a>
+        <a href="#" class="nav__cart" aria-label="ตะกร้า">
+          🧺 <span class="nav__cart-text">ตะกร้า</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <!-- Categories Pills -->
+  <section class="categories">
+    <div class="container categories__inner">
+      <button class="chip" onclick="location.href='menu.html'">ทั้งหมด</button>
+  
+      <button class="chip" onclick="location.href='menu-rice.html'">ข้าว</button>
+      <button class="chip is-active">ราเมน</button>
+      <button class="chip" onclick="location.href='menu-snack.html'">ของทานเล่น</button>
+      <button class="chip" onclick="location.href='menu-dessert.html'">ขนม/เครื่องดื่ม</button>
+    </div>
+  </section>
+
+  <!-- Menu Grid -->
+  <main class="menu-grid container">
+    <!-- ตัวอย่างราเมน 3 เมนู -->
+    <div class="menu-item">
+      <img src="https://api2.krua.co/wp-content/uploads/2021/07/RI1689_ImageBanner_1140x507.jpg" alt="ราเมนทงคตสึ">
+      <h3>ราเมนทงคตสึ</h3>
+      <p>ซุปกระดูกหมูเข้มข้น เส้นเหนียวนุ่ม โรยสาหร่าย</p>
+      <span class="price">฿129</span>
+      <button class="btn">เพิ่มลงตะกร้า</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://tpaeduways.com/wp-content/uploads/2025/02/shoyu-ramen.jpg" alt="ราเมนโชยุ">
+      <h3>ราเมนโชยุ</h3>
+      <p>น้ำซุปโชยุหอมกรุ่น เสิร์ฟพร้อมไข่ออนเซ็น</p>
+      <span class="price">฿139</span>
+      <button class="btn">เพิ่มลงตะกร้า</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://lh5.googleusercontent.com/proxy/Lvu-FQ8KQqoyng5XW5grxuBAp-T55jwtfuIlIpsvoZd8-J0r31bbRvClEemm25M3yHXcUakiUGzeR6lO2LU4eIHLDyLa5A" alt="ราเมนเกลือ">
+      <h3>ราเมนเกลือ</h3>
+      <p>ซุปใสสไตล์ญี่ปุ่น เค็มพอดี เส้นเหนียวนุ่ม</p>
+      <span class="price">฿129</span>
+      <button class="btn">เพิ่มลงตะกร้า</button>
+    </div>
+    <div class="menu-item">
+      <img src="https://img.wongnai.com/p/1920x0/2021/03/01/14e3b73cec56407092c6f02afbc42fc0.jpg" alt="ราเมนเกลือ">
+      <h3>ราเมนโซยุ</h3>
+      <p>ซุปใสสไตล์ญี่ปุ่น เค็มพอดี เส้นเหนียวนุ่ม</p>
+      <span class="price">฿129</span>
+      <button class="btn">เพิ่มลงตะกร้า</button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="nekologo.png" alt="โลโก้ร้าน">
+        <p>ร้าน Neko Delivery — อร่อยง่าย ส่งไว</p>
+      </div>
+      <div class="footer__links">
+        <a href="#">เกี่ยวกับเรา</a>
+        <a href="#">วิธีสั่งซื้อ</a>
+        <a href="#">คำถามที่พบบ่อย</a>
+        <a href="#">นโยบายความเป็นส่วนตัว</a>
+      </div>
+      <div class="footer__contact">
+        <p>โทร: 08x-xxx-xxxx</p>
+        <p>LINE: @nekodeli</p>
+        <p>ที่ตั้งร้าน: ถนนตัวอย่าง เขตตัวอย่าง กรุงเทพฯ</p>
+      </div>
+    </div>
+    <div class="footer__copy">© 2025 Neko Delivery</div>
+  </footer>
+
+</body>
+</html>
